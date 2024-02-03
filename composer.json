@@ -1,0 +1,23 @@
+{
+    "name": "ivolosevich/example-api-client",
+    "description": "Example Api Client (test task)",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "friendsofphp/php-cs-fixer": "^3.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivolosevich\\ExampleApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Irina Volosevich",
+            "email": "irina.volosevich@skyeng.ru"
+        }
+    ]
+}
